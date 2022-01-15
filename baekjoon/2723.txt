@@ -5,7 +5,7 @@ dp[i][j]->i개의 비밀번호, j개 집합일때 갯수
 1개 집합일때 iC1+iC2+...+iCi-1+iCi = 2^i-1
 2개 집합 이상-> ex j가 2일때 (o 앞의 집합, v 들어갈 수 있는 곳)
 v O v (dp[i-1][j-1]*j 가지),
-O+v O+v or O O(dp[i-1][j]*j+1 가지)
+O+v O+v or O O(dp[i-1][j]*(j+1) 가지)
 
 dp[i][1] = 2^i-1
 dp[i][j] = dp[i-1][j-1]*j+dp[i-1][j]*(j+1)
