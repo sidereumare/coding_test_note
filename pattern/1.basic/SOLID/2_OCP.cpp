@@ -1,3 +1,4 @@
+//OCP: Open Close Principle
 //확장에는 열러있고, 변경에는 닫혀 있어야 함
 #include <iostream>
 

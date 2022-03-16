@@ -1,4 +1,4 @@
-//single responsibility principle
+//SRP: Single Responsibility Principle
 //단일 책임 원칙, 클래스를 변경해야 하는 이유는 하나 뿐이어야 함
 #include <iostream>
 #include <string>
