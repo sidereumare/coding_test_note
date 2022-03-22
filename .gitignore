@@ -5,5 +5,5 @@
 !*.*
 # Unignore all dirs
 !*/
-
+remove_executable.sh
 .vscode/
